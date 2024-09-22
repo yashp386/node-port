@@ -1,5 +1,5 @@
 require("./xyz.js")      //this is called modules in node js this files runs first
-
+require("./sum.js")      // u cant access another modules function and 
 
 var h="namaste node-js";
 
@@ -13,4 +13,4 @@ console.log(a+b);
 // console.log(globalThis === global);
 // C:\Users\yashp\OneDrive\Documents\GitHub\node-port
 
-calculatesum
+calculatesum(a,b);
