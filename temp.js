@@ -15,4 +15,3 @@ console.log(a+b);
 
 // console.log(globalThis === global);
 // C:\Users\yashp\OneDrive\Documents\GitHub\node-port
-
