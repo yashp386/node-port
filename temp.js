@@ -4,8 +4,8 @@ var a=10,b=15;
 
 console.log(a+b);
 
-console.log(global);    //global is now replaced with global this cause of usage in
-console.log(this);       // defining the global variable in program
+// console.log(global);    //global is now replaced with global this cause of usage in
+// console.log(this);       // defining the global variable in program
 
 // console.log(globalThis === global);
-C:\Users\yashp\OneDrive\Documents\GitHub\node-port
+// C:\Users\yashp\OneDrive\Documents\GitHub\node-port
