@@ -1,6 +1,9 @@
-require("./xyz.js")      //this is called modules in node js this files runs first
-require("./sum.js")      // u cant access another modules function and 
+require("./xyz.js")      //this is called modules in node js this files runs first u cant access another modules function and
 
+const calculatesum=require("./sum.js")       // imported here given module 
+
+
+calculatesum(a,b);
 var h="namaste node-js";
 
 var a=10,b=15;
@@ -13,4 +16,3 @@ console.log(a+b);
 // console.log(globalThis === global);
 // C:\Users\yashp\OneDrive\Documents\GitHub\node-port
 
-calculatesum(a,b);
