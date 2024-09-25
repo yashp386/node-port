@@ -6,7 +6,7 @@ const calculatesum=require("./sum.js")       // imported here given module
 calculatesum(a,b);
 var h="namaste node-js";
 
-var a=10,b=15;
+var a=4,b=4;
 
 console.log(a+b);
 
